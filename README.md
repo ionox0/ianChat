@@ -1,4 +1,4 @@
-[# ianChat](chat.ianjohnson.co)
+#[ianChat](http://chat.ianjohnson.co)
 socket.io chat implementation
 
 Embed chat into your webpage!
