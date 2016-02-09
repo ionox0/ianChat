@@ -11,7 +11,7 @@ io.on('connection', function(socket){
   console.log('a user connected');
 
   socket.on('chat message', function(msg){
-    fs.appendFile('/tmp/chat', msg + '\n');
+    fs.appendFile('/var/log/chat', msg + '\n');
     io.emit('chat message', msg);
   });
 
